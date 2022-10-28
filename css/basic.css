@@ -1,0 +1,295 @@
+
+
+html, body {
+  /* height: 100%; */
+  font-family: 'NanumGothic', 'serif';
+}
+
+*{
+margin:0px;
+padding:0px;
+/* background-color: #252525; */
+}
+ul, ol {
+    list-style: none;
+}
+
+a{
+ text-decoration-line: none; 
+}
+
+/*기본 너비 설정*/
+.all {
+    width: auto;
+   height : auto;
+    margin: 0 auto;
+}
+
+/*헤더*/
+.head{
+position: relative;
+width: auto;
+height: 100px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+/* border: 1px solid #3482EA; */
+box-sizing: border-box;
+}
+
+/*로고*/
+.logo{
+cursor:pointer;
+position: absolute;
+width: 212px;
+height: 40px;
+left: 360px;
+top: 30px;
+}
+
+.home{
+	/* 홈 */
+
+cursor:pointer;
+position: absolute;
+width: 17px;
+height: 26px;
+left: 621px;
+top: 37px;
+
+/* font-family: 'Noto Sans KR'; */
+font-style: normal;
+font-weight:700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+/*드라마 GNB*/
+.dramatap{
+	cursor:pointer;
+	position: absolute;
+width: 117px;
+height: 26px;
+left: 658px;
+top: 37px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight:700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #030303;
+}
+
+/*영화 GNB*/
+.movietap{
+cursor:pointer;
+position: absolute;
+width: 36px;
+height: 26px;
+left: 785px;
+top: 37px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight:700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #030303;
+}
+
+/*검색 이미지*/
+.serch_Img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+        left: 350px;
+    top: 4px;
+}
+
+.serch{
+	/* 검색하기 */
+
+position: absolute;
+
+width: 290px;
+height: 26px;
+left: 1110px;
+top: 37px;
+
+
+}
+input#searchInput{
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+border: 0px solid #000;
+color: black;
+
+
+
+
+}
+.login_btn{
+
+outline:0;
+border:0;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 11px 3px 10px;
+
+position: absolute;
+
+height: 30px;
+left: 1494px;
+top: 35px;
+
+background: #3482EA;
+border-radius: 5px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+
+button:active,
+button:hover{
+ letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+	width:auito;
+}
+
+footer{
+justify-content: center;
+display: flex;
+position: relative;
+
+
+width: 100%;
+height: 200px;
+left: 0px;
+bottom:0px;
+
+background: #777777;
+}
+.footer_text{
+
+width: 784px;
+height: 85px;
+padding-top:50px;
+padding-right: 420px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.user_img{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 1494px;
+top: 25px;
+border-radius:100px;
+}
+.user_img:hover{
+	 cursor:pointer;
+}
+#userDiv{
+position:absolute;
+
+z-index:15;
+
+width: 200px;
+height: 270px;
+    margin-left: 1360px;
+
+
+background: #FFFFFF;
+border: 1px solid #030303;
+border-radius: 5px;
+}
+#userDiv h3{
+	margin-top:6px;
+text-align:center;display: flex;align-items: center;
+}
+#userDiv ul{
+margin-left: -39px;
+}
+#userDiv li{
+ display:block;
+ text-decoration:none; 
+
+height:45px;
+
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+}
+.userimg{
+margin-right:15px;
+margin-left:21px;
+width: 20px;
+height: 20px;
+}
+.userimg_2{
+margin-right:18px;
+width: 40px;
+height: 40px;
+align-items: center;
+margin-left:13px;
+}
+
+#userDiv li:hover{
+	 cursor:pointer;
+	 background: #E5E5E5;
+}

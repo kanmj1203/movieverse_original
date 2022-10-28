@@ -1,0 +1,249 @@
+.main_img_div{
+/* main_img */
+
+
+position: relative;
+width: 100%;
+left: 0px;
+}
+ul.ul_tag {
+	z-index:10;
+	text-align: center;
+    list-style:none;
+   margin: 80px 0 0 292px;
+    padding:0;	
+	position:absolute;
+}
+
+ul.ul_tag li {
+
+    margin: 20px 0 0 107px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+.main_img{
+position: absolute;
+width: 100%;
+height: 500px;
+}
+.text {
+color:white;
+position: absolute;
+width: 432px;
+height: 178px;
+left: 852px;
+top: 30px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 58px;
+display: flex;
+align-items: center;
+
+color: white;
+
+}
+.text_p{
+	color:white;
+position: absolute;
+width: 432px;
+height: 178px;
+left: 733px;
+top: 160px;
+
+text-align:center;
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+
+}
+.text_p2{
+position: absolute;
+width: 432px;
+height: 178px;
+left: 831px;
+top: 310px;
+color:white;
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+
+}
+.img_logose{
+margin-top:600px;
+float: left;
+}
+.main_img_logos{
+	
+position: relative;
+width: 50px;
+height: 50px;
+
+}
+
+.tv{
+	
+/* 인기 작품 */
+
+
+position: absolute;
+width: 260px;
+height: 36px;
+left: 360px;
+top: 930px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #030303;
+}
+.plus{
+
+position: absolute;
+width: 80px;
+height: 26px;
+left: 1492px;
+top: 945px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #606060;
+
+}
+.movies{
+overflow:  hidden;
+position: relative;
+width: 1900px;
+overflow: hidden;
+
+padding-left
+}
+.movies2{
+overflow:  hidden;
+position: relative;
+width: 1900px;
+overflow: hidden;
+
+padding-left
+}
+
+
+.show{
+	
+left: 360px;
+
+    height: 270px;
+width: 1200px;
+overflow: hidden;position: absolute;
+}
+.movie{
+z-index:1;
+position: relative;
+width: 180px;
+overflow:  hidden;
+height: 270px;
+left:0px;
+padding-top: 0px;
+float:left;
+
+border-radius: 10px;
+}
+
+
+
+.banner_img {
+overflow: hidden;
+z-index:1;
+position: relative;
+width: 180px;
+overflow:  hidden;
+height: 270px;
+
+float:left;
+
+border-radius: 10px;
+}
+.banner_img:hover img{
+   filter: brightness(50%);
+  transition: 1s;
+  cursor:pointer;
+/*opacity: 0.5;*/
+filter: blur(3px);
+}
+.hover_text {
+  position: absolute;
+  top: 30px;
+  margin-left: 25px;
+  color: #fff;
+  z-index: 20;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:center;
+    display:none;
+    cursor:pointer;
+}
+
+.banner_img:hover > .hover_text{
+  display:block;
+}
+.left{
+	position: absolute;
+width: 50px;
+height: 270px;
+left: 305px;
+
+	cursor:pointer;
+}
+.right{
+	position: absolute;
+width: 50px;
+height: 270px;
+left: 1565px;
+
+	cursor:pointer;
+}
+.main_img1_logos{
+width:250px;
+position:absolute;
+
+}
+ul.ul_tag li{
+color:white;
+}
+.logoicon{
+position:relative;
+width:50px;
+height:50px;
+border-radius:10px;
+left: 819px;
+top: 413px;
+	cursor:pointer;
+}
